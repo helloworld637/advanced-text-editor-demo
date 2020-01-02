@@ -1,0 +1,17 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+#preview {
+  color: #000000;
+  font-family: arial;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
