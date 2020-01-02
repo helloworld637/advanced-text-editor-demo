@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>advanced text editor demo</title>
+		<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+	</head>
+	<body>
+		
+	<fieldset>
+	   <legend>preview</legend>
+	   <p id="preview"></p>
+	</fieldset><br>
+	
+	<fieldset>
+	   <legend>controls</legend>
+	   <label for="text">text:  </label>
+	   <input type="text" name="text" placeholder="enter the text here" id="text" oninput="myFunction1()"><br><br>
+	   <label for="text-color">text color:  </label><br>
+	   <input type="color" name="text-color" title="click this button to select color" id="text-color" oninput="myFunction2()"><br><br>
+	   <label for="text-font">text font:  </label><br>
+	   <input type="radio" name="text-font" value="arial" id="text-font-1" onclick="myFunction3()"> arial<br>
+	   <input type="radio" name="text-font" value="calibri" id="text-font-2" onclick="myFunction4()"> calibri<br>
+	   
+	</fieldset><br>
+	
+	<fieldset>
+<legend>generated CSS code</legend>
+<pre>
+p {
+  color: <span id="value1">#000000</span>;
+  font-family: <span id="value2">'arial', sans-serif</span>;
+}
+</pre>
+	</fieldset><br>
+	<p>check out my <a href="https://code.sololearn.com/Ws5mT744x6JY/#html" target="_blank">simple text editor demo</a></p>
+		
+	</body>
+</html>
